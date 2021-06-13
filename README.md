@@ -12,11 +12,11 @@ To run the Docker File
 
 2) Run below Docker Command in CMD from where the files in these repo are stored (Reference: https://towardsdatascience.com/how-to-run-a-python-script-using-a-docker-container-ea248e618e32)
 
->>docker-compose up
+>>docker-compose up # to trigger the docker file
 
->>docker ps
+>>docker ps # to ensure the docker container is running
 
->>docker exec -it shoes-data-mining-main_app_1 bash
+>>docker exec -it shoes-data-mining-main_app_1 bash # to view the files while the container is running
 
 (Wait until the script fully run for the data to be available)
 
